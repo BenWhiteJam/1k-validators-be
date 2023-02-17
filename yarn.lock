@@ -97,7 +97,7 @@ __metadata:
     "@1kv/common": "workspace:^"
     "@1kv/worker": "workspace:^"
     "@ava/typescript": ^3.0.1
-    "@bull-board/api": ^4.11.0
+    "@bull-board/api": ^4.12.1
     "@bull-board/koa": ^4.11.0
     "@typescript-eslint/eslint-plugin": ^5.50.0
     "@typescript-eslint/parser": ^5.50.0
@@ -1008,12 +1008,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@bull-board/api@npm:4.11.0, @bull-board/api@npm:^4.11.0":
+"@bull-board/api@npm:4.11.0":
   version: 4.11.0
   resolution: "@bull-board/api@npm:4.11.0"
   dependencies:
     redis-info: ^3.0.8
   checksum: 17dc2cd3a45377d3f7aa132f94d8d2aec8e060bd5f7c4f89420d659bb336e053ced6e73d151b258db97709b3acfcb7d9aba41ffbd472adfd936bf39a0ba219cf
+  languageName: node
+  linkType: hard
+
+"@bull-board/api@npm:^4.12.1":
+  version: 4.12.1
+  resolution: "@bull-board/api@npm:4.12.1"
+  dependencies:
+    redis-info: ^3.0.8
+  checksum: 9130acd3bcddf2989d831955f4fd75d211e07553f4685d1779d9c10adf0f570a62430a5b6ffe72e0d041be4f6c93d6cfc1986cda4b3fe956465c7e718efb95de
   languageName: node
   linkType: hard
 
@@ -8659,7 +8668,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.9.5#~builtin<compat/typescript>":
   version: 4.9.5
-  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=bda367"
+  resolution: "typescript@patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=f456af"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
